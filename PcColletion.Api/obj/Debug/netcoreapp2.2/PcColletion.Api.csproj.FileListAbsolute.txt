@@ -1,0 +1,17 @@
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\bin\Debug\netcoreapp2.2\PcColletion.Api.deps.json
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\bin\Debug\netcoreapp2.2\PcColletion.Api.runtimeconfig.json
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\bin\Debug\netcoreapp2.2\PcColletion.Api.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\bin\Debug\netcoreapp2.2\PcColletion.Api.dll
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\bin\Debug\netcoreapp2.2\PcColletion.Api.pdb
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.RazorAssemblyInfo.cache
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.RazorAssemblyInfo.cs
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.RazorTargetAssemblyInfo.cache
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.dll
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.pdb
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\bin\Debug\netcoreapp2.2\PcColletion.InfraStructure.dll
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\bin\Debug\netcoreapp2.2\PcColletion.InfraStructure.pdb
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\PcColletion\PcColletion.Api\obj\Debug\netcoreapp2.2\PcColletion.Api.csproj.CopyComplete

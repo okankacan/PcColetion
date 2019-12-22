@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="form-group">
+    <select id="processor">
+        @foreach (PcColletion.InfraStructure.Model.Item item in ViewBag.Processor)
+        {
+        <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+    Fiyat: <div id="processorPrice"></div>
+
+</div>
+
+
+<div class="form-group">
+    <select id="ram">
+        @foreach (PcColletion.InfraStructure.Model.Item item in ViewBag.Ram)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+    Fiyat: <div id="processorPrice"></div>
+
+
+</div>
+<div class="form-group">
+</div>
+
+@section Scripts
+{
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+        $('#processor').on('change', function () {
+
+            totalPrice(this.value,'processorPrice');
+         });
+        $('#ram').on('change', function () {
+           totalPrice(this.value,'processorPrice');
+        });
+
+        function totalPrice(itemId,Name) {
+            $.ajax({
+                type: "POST",
+                url: "/Home/GetPrice",
+                data: { Id: itemId },
+                success: function (data) {
+                    $('#' + Name).html(data);
+                },
+                failure: function (errMsg) {
+                    $('#' + Name).html('0');
+                 }
+            });
+        }
+    </script>
+}
